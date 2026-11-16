@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Vector database
+chroma_db/
+
+# Chat history
+chat_history/
+
+# MD5 records
+md5.txt
+
+# IDE
+.idea/
+.vscode/
